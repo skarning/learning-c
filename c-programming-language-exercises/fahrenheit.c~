@@ -1,0 +1,18 @@
+#include <stdio.c>
+
+/*Print Fahrenheit-Celcius table
+  for fhar = 0, 20, ..., 300*/
+
+main()
+{
+  int fhar, celcius;
+  int lower, upper, step;
+
+  lower = 0;       /*lower limit of temperature table*/
+  upper = 300;     /*upper limit*/
+  step = 20;       /*step size*/
+
+  fhar = lower;
+  while(fhar <= upper) {
+    celcius = 5 * (fahr-32) / 9;
+    printf("%d\t%d\n", fhar, celsius)

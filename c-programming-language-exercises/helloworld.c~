@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <math.h>
+
+double square_root(double);
+
+int main(){
+  printf("Find square root of: ");
+  double numb;
+  scanf("%lf", &numb);
+  printf("Result: %f\n", square_root(numb));
+  
+  return 0;
+}
+
+
+double square_root(double numb){
+  return sqrt(numb);
+}

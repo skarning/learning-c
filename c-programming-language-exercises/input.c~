@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+  char my_input[16];
+
+  scanf(&my_input);
+
+  printf("/s", &my_input);

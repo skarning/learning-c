@@ -1,0 +1,8 @@
+#include <stdio.h>
+#define LINELIMIT 80
+#define MAXLINE 1000
+
+int main()
+{
+  for (int i = 0; i<MAXLINE && (c=getchar()!=EOF) || c!='\n')
+ 
