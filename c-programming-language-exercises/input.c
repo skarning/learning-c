@@ -4,7 +4,7 @@ int main()
 {
   char my_input[3];
 
-  fgets( my_input);
+  fgets(my_input);
 
   printf("%s\n", my_input);
 }

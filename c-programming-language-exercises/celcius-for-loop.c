@@ -4,11 +4,12 @@
 #define UPPER 300   /*upper limit of table */
 #define STEP 20     /*step size */
 
-main()
+int main()
 {
   int fahr;     /*Temperature in fahrenheit*/
 
   for(fahr = LOWER; fahr <= UPPER; fahr = fahr + STEP){
     printf("%3d\t%6.1f\n", fahr, (5.0/9.0)*(fahr-32));
   }
+  return 1;
 }
