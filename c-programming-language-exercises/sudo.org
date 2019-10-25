@@ -1,4 +1,0 @@
- // 1. Read the line
-  // 2. Find the length of the line
-  // 3. Check if length is greater than 80
-  // 4. If it is, print the line

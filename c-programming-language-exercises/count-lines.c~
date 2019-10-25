@@ -1,7 +1,0 @@
-#include <stdio.h>
-
-main()
-{
-  long nl;
-
-  while ((c = getchar()) != EOF){
